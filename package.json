@@ -1,7 +1,7 @@
 {
   "name": "dsh-theme-kit",
   "version": "0.1.0",
-  "description": "A DeepSeek Harness Web GUI appearance plugin: preset themes, custom backgrounds (wallpaper / glass / texture), per-zone text depth, and a keyboard desktop pet.",
+  "description": "A DeepSeek Harness Web GUI appearance kit: 32 preset themes, custom backgrounds (wallpaper / glass / texture), per-zone text depth, and a keyboard desktop pet.",
   "type": "module",
   "main": "lib/index.js",
   "exports": {
@@ -43,7 +43,8 @@
     "lib",
     "wallpapers",
     "README.md",
-    "README.zh.md",
-    "cordis.patch.yml"
+    "README.en.md",
+    "cordis.patch.yml",
+    "docs"
   ]
 }
