@@ -39,9 +39,7 @@
 ## 快速开始
 
 ```bash
-git clone https://github.com/ink5897/dsh-theme-kit.git
-cd dsh-theme-kit
-dsh plugin --profile web add link:.
+dsh plugin --profile web add dsh-theme-kit
 ```
 
 重启 `dsh web`，在设置面板打开「主题与配色」即可开始。
@@ -83,6 +81,14 @@ dsh plugin --profile web add link:.
 ## 安装
 
 前置条件：DeepSeek Harness（`dsh`）、Node.js 18+、`pnpm` 在 PATH。
+
+### 从 npm 安装（推荐）
+
+```bash
+dsh plugin --profile web add dsh-theme-kit
+```
+
+### 从源码安装
 
 ```bash
 git clone https://github.com/ink5897/dsh-theme-kit.git

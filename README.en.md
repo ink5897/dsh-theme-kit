@@ -39,9 +39,7 @@ English | [中文](README.md)
 ## Quick start
 
 ```bash
-git clone https://github.com/ink5897/dsh-theme-kit.git
-cd dsh-theme-kit
-dsh plugin --profile web add link:.
+dsh plugin --profile web add dsh-theme-kit
 ```
 
 Restart `dsh web`, then open Settings and the "Themes & Colors" section.
@@ -83,6 +81,14 @@ Restart `dsh web`, then open Settings and the "Themes & Colors" section.
 ## Install
 
 Prerequisites: DeepSeek Harness (`dsh`), Node.js 18+, pnpm on PATH.
+
+### From npm (recommended)
+
+```bash
+dsh plugin --profile web add dsh-theme-kit
+```
+
+### From source
 
 ```bash
 git clone https://github.com/ink5897/dsh-theme-kit.git
