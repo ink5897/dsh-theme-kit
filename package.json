@@ -1,5 +1,5 @@
 {
-  "name": "dsh-ui-kit",
+  "name": "dsh-theme-kit",
   "version": "0.1.0",
   "description": "A DeepSeek Harness Web GUI appearance plugin: preset themes, custom backgrounds (wallpaper / glass / texture), per-zone text depth, and a keyboard desktop pet.",
   "type": "module",
@@ -35,9 +35,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ink5897/dsh-ui-kit.git"
+    "url": "https://github.com/ink5897/dsh-theme-kit.git"
   },
-  "homepage": "https://github.com/ink5897/dsh-ui-kit",
+  "homepage": "https://github.com/ink5897/dsh-theme-kit",
   "license": "MIT",
   "files": [
     "lib",

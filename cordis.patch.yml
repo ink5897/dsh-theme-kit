@@ -1,4 +1,4 @@
-# dsh-ui-kit bundle patch: mount the appearance host plugin.
+# dsh-theme-kit bundle patch: mount the appearance host plugin.
 - insert:
-    - id: ui-kit
-      name: dsh-ui-kit
+    - id: theme-kit
+      name: dsh-theme-kit
