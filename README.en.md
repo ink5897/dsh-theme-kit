@@ -3,7 +3,7 @@
 English | [中文](README.md)
 
 <p align="center">
-  <img src="docs/cover.png" alt="dsh-theme-kit cover" width="100%" />
+  <img src="docs/cover.jpg" alt="dsh-theme-kit cover" width="100%" />
 </p>
 
 <p align="center">
