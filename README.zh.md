@@ -4,6 +4,12 @@
 
 DeepSeek Harness Web GUI 外观插件：预设配色主题、自定义背景（壁纸 / 玻璃 / 纹理）、分区文字深浅、按键桌宠。
 
+## 截图
+
+![主题化主界面](docs/screenshot-theme.jpg)
+
+![设置面板](docs/screenshot-settings.jpg)
+
 ## 功能
 
 - **预设主题**：按色系分组（莫兰迪 / 马卡龙 / 中国传统色），一键切换。

@@ -4,6 +4,12 @@ English | [中文](README.zh.md)
 
 A DeepSeek Harness Web GUI appearance plugin: preset color themes, custom backgrounds (wallpaper / glass / texture), per-zone text depth, and a keyboard desktop pet.
 
+## Screenshots
+
+![Themed main interface](docs/screenshot-theme.jpg)
+
+![Settings panel](docs/screenshot-settings.jpg)
+
 ## Features
 
 - **Preset themes** grouped by palette (Morandi / Macaron / Chinese traditional colors), one-click switch.
