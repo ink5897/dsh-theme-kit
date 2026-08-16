@@ -1,0 +1,17 @@
+# dependencies
+node_modules/
+
+# npm lockfile is a local dev artifact (DSH resolves deps via pnpm)
+package-lock.json
+
+# logs
+*.log
+
+# OS / editor
+.DS_Store
+
+# auth tokens (never commit)
+.npmrc
+
+# internal dev notes (not published)
+HANDOFF.md

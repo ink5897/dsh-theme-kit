@@ -1,0 +1,49 @@
+{
+  "name": "dsh-ui-kit",
+  "version": "0.1.0",
+  "description": "A DeepSeek Harness Web GUI appearance plugin: preset themes, custom backgrounds (wallpaper / glass / texture), per-zone text depth, and a keyboard desktop pet.",
+  "type": "module",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@deepseek-ai/dsh-home-paths": "^0.1.0-rc.6",
+    "@deepseek-ai/dsh-typert-protocol": "^0.1.0-rc.6",
+    "zod": "^4.0.0"
+  },
+  "dsh": {
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-slots",
+        "@deepseek-ai/dsh-client-ui-settings",
+        "@deepseek-ai/dsh-client-ui-theme",
+        "@deepseek-ai/dsh-api-gateway"
+      ]
+    },
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ink5897/dsh-ui-kit.git"
+  },
+  "homepage": "https://github.com/ink5897/dsh-ui-kit",
+  "license": "MIT",
+  "files": [
+    "lib",
+    "wallpapers",
+    "README.md",
+    "README.zh.md",
+    "cordis.patch.yml"
+  ]
+}
