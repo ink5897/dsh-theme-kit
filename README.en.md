@@ -8,7 +8,9 @@ English | [中文](README.md)
 
 <p align="center">
   <a href="https://github.com/ink5897/dsh-theme-kit"><img src="https://img.shields.io/badge/DSH-Web_GUI_plugin-4a90d9" alt="DSH plugin"></a>
+  <a href="https://www.npmjs.com/package/dsh-theme-kit"><img src="https://img.shields.io/npm/v/dsh-theme-kit" alt="npm"></a>
   <a href="https://github.com/ink5897/dsh-theme-kit/releases"><img src="https://img.shields.io/github/v/tag/ink5897/dsh-theme-kit" alt="Version"></a>
+  <a href="https://github.com/beancookie/awesome-dsh-plugin"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
   <a href="LICENSE"><img src="https://img.shields.io/github/license/ink5897/dsh-theme-kit" alt="License"></a>
 </p>
 
