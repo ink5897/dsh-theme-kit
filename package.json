@@ -1,6 +1,6 @@
 {
   "name": "dsh-theme-kit",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A DeepSeek Harness Web GUI appearance kit: 32 preset themes, custom backgrounds (wallpaper / glass / texture), per-zone text depth, and a keyboard desktop pet.",
   "keywords": [
     "dsh-plugin",
