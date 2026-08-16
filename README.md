@@ -32,9 +32,9 @@
 
 ### 设置
 
-| 预设主题设置 | 自定义背景设置 |
-|---|---|
-| ![预设主题设置](docs/settings-preset.png) | ![自定义背景设置](docs/settings-background.png) |
+| 预设主题设置 | 自定义背景设置 | 纹理设置 |
+|---|---|---|
+| ![预设主题设置](docs/settings-preset.png) | ![自定义背景设置](docs/settings-background.png) | ![纹理设置](docs/settings-texture.png) |
 
 ## 快速开始
 

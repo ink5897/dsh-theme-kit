@@ -32,9 +32,9 @@ English | [中文](README.md)
 
 ### Settings
 
-| Preset theme settings | Custom background settings |
-|---|---|
-| ![Preset theme settings](docs/settings-preset.png) | ![Custom background settings](docs/settings-background.png) |
+| Preset theme settings | Custom background settings | Texture settings |
+|---|---|---|
+| ![Preset theme settings](docs/settings-preset.png) | ![Custom background settings](docs/settings-background.png) | ![Texture settings](docs/settings-texture.png) |
 
 ## Quick start
 
