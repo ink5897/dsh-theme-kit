@@ -14,10 +14,6 @@ English | [中文](README.md)
 
 > A DeepSeek Harness Web GUI appearance kit: 32 preset themes, animated and static wallpapers, paper textures, per-zone opacity and text depth, plus a keyboard desktop pet.
 
-## Showcase
-
-![Showcase](docs/showcase.gif)
-
 ## Highlights
 
 - **32 themes** across Morandi / Macaron / Chinese traditional palettes, one-click switch
@@ -25,6 +21,20 @@ English | [中文](README.md)
 - **Paper textures**: 7 patterns with adjustable strength and color
 - **Per-zone fine-tuning**: opacity and text depth for main / sidebar / cards / input / settings
 - **Keyboard pet**: a desktop pet that follows your key presses; draggable and resizable
+
+## Showcase
+
+### Themes (one per palette)
+
+| Morandi | Macaron | Chinese traditional |
+|---|---|---|
+| ![Morandi](docs/theme-morandi.png) | ![Macaron](docs/theme-macaron.png) | ![Chinese traditional](docs/theme-chinese.png) |
+
+### Settings
+
+| Preset theme settings | Custom background settings |
+|---|---|
+| ![Preset theme settings](docs/settings-preset.png) | ![Custom background settings](docs/settings-background.png) |
 
 ## Quick start
 
