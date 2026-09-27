@@ -7,14 +7,14 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/ink5897/dsh-theme-kit"><img src="https://img.shields.io/badge/DSH-Web_GUI_插件-4a90d9" alt="DSH 插件"></a>
+  <a href="https://github.com/ink5897/dsh-theme-kit"><img src="https://img.shields.io/badge/DSH-Web_GUI_和_桌面端插件-4a90d9" alt="DSH 插件"></a>
   <a href="https://www.npmjs.com/package/dsh-theme-kit"><img src="https://img.shields.io/npm/v/dsh-theme-kit" alt="npm"></a>
   <a href="https://github.com/ink5897/dsh-theme-kit/releases"><img src="https://img.shields.io/github/v/tag/ink5897/dsh-theme-kit" alt="版本"></a>
   <a href="https://github.com/beancookie/awesome-dsh-plugin"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
   <a href="LICENSE"><img src="https://img.shields.io/github/license/ink5897/dsh-theme-kit" alt="许可证"></a>
 </p>
 
-> 给 DeepSeek Harness 的 Web 界面换一套好看的外观：32 款配色主题、动态与静态壁纸、东方纸纹、分区透明度与文字深浅，还送一只会跟着按键动的键盘桌宠。
+> 给 DeepSeek Harness 的 Web 界面与桌面端换一套好看的外观：32 款配色主题、动态与静态壁纸、东方纸纹、分区透明度与文字深浅，还送一只会跟着按键动的键盘桌宠。
 
 ## 亮点
 
@@ -41,10 +41,14 @@
 ## 快速开始
 
 ```bash
+# Web 端
 dsh plugin --profile web add dsh-theme-kit
+
+# 桌面端（DeepSeek Harness Desktop）
+dsh plugin --profile desktop add dsh-theme-kit
 ```
 
-重启 `dsh web`，在设置面板打开「主题与配色」即可开始。
+重启 `dsh web`（或桌面端应用），在设置面板打开「主题与配色」即可开始。
 
 ## 预设主题
 
@@ -84,10 +88,16 @@ dsh plugin --profile web add dsh-theme-kit
 
 前置条件：DeepSeek Harness（`dsh`）、Node.js 18+、`pnpm` 在 PATH。
 
+Web 端与桌面端（DeepSeek Harness Desktop）均支持，安装时用 `--profile web` 或 `--profile desktop` 区分。
+
 ### 从 npm 安装（推荐）
 
 ```bash
+# Web 端
 dsh plugin --profile web add dsh-theme-kit
+
+# 桌面端
+dsh plugin --profile desktop add dsh-theme-kit
 ```
 
 ### 从源码安装
@@ -97,6 +107,8 @@ git clone https://github.com/ink5897/dsh-theme-kit.git
 cd dsh-theme-kit
 dsh plugin --profile web add link:.
 ```
+
+桌面端把 `--profile web` 换成 `--profile desktop` 即可。
 
 ## 开发
 

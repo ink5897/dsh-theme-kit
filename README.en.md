@@ -7,14 +7,14 @@ English | [中文](README.md)
 </p>
 
 <p align="center">
-  <a href="https://github.com/ink5897/dsh-theme-kit"><img src="https://img.shields.io/badge/DSH-Web_GUI_plugin-4a90d9" alt="DSH plugin"></a>
+  <a href="https://github.com/ink5897/dsh-theme-kit"><img src="https://img.shields.io/badge/DSH-Web_GUI_and_Desktop_plugin-4a90d9" alt="DSH plugin"></a>
   <a href="https://www.npmjs.com/package/dsh-theme-kit"><img src="https://img.shields.io/npm/v/dsh-theme-kit" alt="npm"></a>
   <a href="https://github.com/ink5897/dsh-theme-kit/releases"><img src="https://img.shields.io/github/v/tag/ink5897/dsh-theme-kit" alt="Version"></a>
   <a href="https://github.com/beancookie/awesome-dsh-plugin"><img src="https://awesome.re/badge.svg" alt="Awesome"></a>
   <a href="LICENSE"><img src="https://img.shields.io/github/license/ink5897/dsh-theme-kit" alt="License"></a>
 </p>
 
-> A DeepSeek Harness Web GUI appearance kit: 32 preset themes, animated and static wallpapers, paper textures, per-zone opacity and text depth, plus a keyboard desktop pet.
+> A DeepSeek Harness Web GUI and Desktop appearance kit: 32 preset themes, animated and static wallpapers, paper textures, per-zone opacity and text depth, plus a keyboard desktop pet.
 
 ## Highlights
 
@@ -41,10 +41,14 @@ English | [中文](README.md)
 ## Quick start
 
 ```bash
+# Web
 dsh plugin --profile web add dsh-theme-kit
+
+# Desktop (DeepSeek Harness Desktop)
+dsh plugin --profile desktop add dsh-theme-kit
 ```
 
-Restart `dsh web`, then open Settings and the "Themes & Colors" section.
+Restart `dsh web` (or the desktop app), then open Settings and the "Themes & Colors" section.
 
 ## Preset themes
 
@@ -84,10 +88,16 @@ Restart `dsh web`, then open Settings and the "Themes & Colors" section.
 
 Prerequisites: DeepSeek Harness (`dsh`), Node.js 18+, pnpm on PATH.
 
+Both the Web GUI and the desktop client (DeepSeek Harness Desktop) are supported — pick `--profile web` or `--profile desktop` accordingly.
+
 ### From npm (recommended)
 
 ```bash
+# Web
 dsh plugin --profile web add dsh-theme-kit
+
+# Desktop
+dsh plugin --profile desktop add dsh-theme-kit
 ```
 
 ### From source
@@ -97,6 +107,8 @@ git clone https://github.com/ink5897/dsh-theme-kit.git
 cd dsh-theme-kit
 dsh plugin --profile web add link:.
 ```
+
+For the desktop client, replace `--profile web` with `--profile desktop`.
 
 ## Development
 
